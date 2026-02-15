@@ -2,7 +2,7 @@
 project = 'Elektrische Maschinen'
 copyright = '2026, Jan Hoegen'
 author = 'Jan Hoegen'
-release = '2026-01-031'
+release = '2026-01-31'
 
 extensions = [
     "myst_parser",
@@ -30,3 +30,6 @@ html_theme_options = {
     "show_toc_level": 2,
 }
 html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]

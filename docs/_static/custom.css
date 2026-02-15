@@ -1,0 +1,10 @@
+/* Remove scrollbars around MathJax-rendered equations. */
+.math, .mathjax, .MathJax, .MathJax_Display {
+  overflow: visible !important;
+}
+
+/* Prevent theme wrappers from forcing scrollbars on display math. */
+div.math, div.mathjax, div.MathJax_Display {
+  overflow-x: auto;
+  overflow-y: visible !important;
+}
